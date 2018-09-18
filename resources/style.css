@@ -5,10 +5,7 @@ body{
   color: seashell;
   opacity: 0.9;
   text-align: center;
-
   margin: 0;
-
-
 }
 
 
@@ -45,6 +42,7 @@ a{
   margin-right: 18px;
 }
 
+
 /* main content */
 
 .content{
@@ -52,7 +50,6 @@ a{
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-
 }
 
 
@@ -60,7 +57,7 @@ a{
 
 .mission{
   background-image: url("https://raw.githubusercontent.com/AJ-2018/TeaCozy/master/resources/images/img-mission-background.jpg");
-  padding-top: 70px;
+  padding-top: 69px;
   height: 700px;
   width: 1200px;
   display: flex;
@@ -96,4 +93,49 @@ a{
 .dish h4{
   text-align: center;
   margin-top: 10px;
+}
+
+
+/* locations content */
+
+.locations{
+  background-image: url("https://raw.githubusercontent.com/AJ-2018/TeaCozy/master/resources/images/img-locations-background.jpg");
+  height: 580px;
+  width: 1200px;
+  margin-top: 50px;
+}
+
+.locations-title{
+  padding-top: 40px;
+}
+
+.present-locations{
+  display: flex;
+  justify-content: center;
+}
+
+.locations-downtown,
+  .locations-eastbayside,
+    .locations-oakdale{
+      background-color: black;
+      margin-top: 15px;
+      margin-right: 40px;
+      width: 300px;
+      opacity: 1;
+}
+
+.present-locations p{
+  padding-bottom: 15px;
+}
+
+
+/* footer section */
+
+.contact{
+  height: 200px;
+}
+
+.copyright{
+  text-align: left;
+  margin-left: 20px;
 }
